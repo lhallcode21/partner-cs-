@@ -1,6 +1,6 @@
 # CS5 Gold, hw2pr2
 # Filename: hw2pr2.py
-# Name:
+# Name: Leah Hall and Antonia Hekster 
 # Problem description: Sleepwalking student
 
 import sys
