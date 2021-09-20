@@ -55,3 +55,6 @@ def rwsteps(start, low, high):
         newpos = start + rs()   # take one step, from start to newpos!
         print('|' + '_'*(newpos-low) + 'S' + '_'*(high-newpos) + '|')
         return 1 + rwsteps(newpos, low, high)
+
+    def collisions(start1, start2):
+    """Making 2 walkers walk and see if they hit each other before reaching their side. if they hit each other the game stops."""
